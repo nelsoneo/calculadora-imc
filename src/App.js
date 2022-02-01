@@ -27,7 +27,7 @@ export default function App() {
     }
 
     if (Number(altura) === 0 || Number(peso) === 0) {
-      setMessage("Deve informar um valor maior que cero");
+      setMessage("Deve informar um valor, que seja maior que cero");
     } else {
       const alt = Number(altura) / 100;
       const imc = Number(peso) / (alt * alt);
